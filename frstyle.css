@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:url(FROOTI.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation{
+    background-color:#130130 ;
+    padding: 15px 10px;
+    position: fixed;
+    width: 100%;
+    left:0;
+    right:0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    z-index: 2;
+    
+    
+}
+.navigation a:link {
+    text-decoration: none;
+  }
+  
+ .navigation a:visited {
+    text-decoration: none;
+  }
+  
+ .navigation a:hover {
+    text-decoration: none;
+    color: red;
+  }
+  
+  .navigation a:active {
+    text-decoration: underline;
+  }
+nav ul{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+   
+}
+ 
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+ text-decoration: none;
+ color: #fff;
+ padding: 20px;
+}
+#logo{
+    margin-left: 20px;
+   width: 119px;
+   
+}
+
+.row{
+    display: flex;
+    flex: 100%;
+    width:100%;
+    height: 100vh;
+}
+.pic{
+    flex: 50%;
+    width:100%;
+    height: 100vh;
+    background-color: #f09130;
+    padding-left: 20%;
+    padding-top: 70px;
+    position: relative;
+  
+ 
+}
+.pra{
+    flex: 50%;
+   margin-top: 40px;
+   width:100%;
+    height: 100vh;
+}
+.pra p{
+  
+  font-size: 17px;
+  font-family: "Meriva", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(FROOTI_Pack_Digital.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic h1{
+    margin-left: -1%;
+        margin-top: -101%;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 800; 
+        color: #fff;
+        position: absolute;
+        top: 132%;
+        left: 32%;
+        
+        
+       
+}
+p{
+    padding-left:  90px;
+    padding-right:90px;
+   padding-top: 30px;
+    font-family: "merivaregular";
+    font-size: 15px;
+     
+    
+}
+.footer{
+    display: flex;
+    flex:100%;
+}
+.first{
+    flex:40%;
+}
+.middle{
+    flex:30%;
+    
+}
+.middle p{
+    padding: 10px;
+}
+.middle a{
+    color:rgb(10, 10, 10);
+  
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+.third{
+    flex:30%;
+}
+.third p{
+    padding: 10px;
+}
+.third a{
+    color:rgb(10, 10, 10);
+  
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
